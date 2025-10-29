@@ -1,0 +1,34 @@
+// Mixins LESS
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-style() {
+  height: @input-height;
+  padding: 0 12px;
+  border: 1px solid @gray-dark;
+  border-radius: @border-radius;
+  font-size: 1rem;
+  transition: @transition;
+  &:focus {
+    border-color: @primary-color;
+    outline: none;
+  }
+}
+
+.button-style(@bg, @color) {
+  background: @bg;
+  color: @color;
+  border: none;
+  border-radius: @border-radius;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: @transition;
+  &:hover {
+    opacity: 0.9;
+  }
+}
