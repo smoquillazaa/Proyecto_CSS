@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Men's Fashion</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="light-mode">
+  <div class="tienda-grid">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ms-3" href="index.html"><i class="fa-solid fa-gem"></i> Men's Fashion</a>
+      </nav>
+    </header>
+    <main class="main">
+      <h2 class="mb-4"><i class="fa-solid fa-cart-shopping"></i> Carrito de Compras</h2>
+      <div class="carrito-grid">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+              <th>Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Reloj de Acero</td>
+              <td>1</td>
+              <td>S/ 250</td>
+              <td>S/ 250</td>
+              <td><button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button></td>
+            </tr>
+            <tr>
+              <td>Pulsera de Cuero</td>
+              <td>2</td>
+              <td>S/ 80</td>
+              <td>S/ 160</td>
+              <td><button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="resumen-carrito">
+          <h4>Resumen</h4>
+          <p>Subtotal: <strong>S/ 410</strong></p>
+          <p>Envío: <strong>Gratis</strong></p>
+          <p>Total: <strong>S/ 410</strong></p>
+          <button class="btn btn-success w-100 mt-2"><i class="fa-solid fa-credit-card"></i> Finalizar compra</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <span>&copy; 2024 Men's Fashion. Todos los derechos reservados.</span>
+        <div>
+          <a href="#" class="text-dark me-3"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="text-dark"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
