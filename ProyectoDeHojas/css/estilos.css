@@ -102,6 +102,88 @@ body {
 .side-menu {
   display: none;
 }
+/* -------- FOOTER -------- */
+.footer-modern {
+  background: #111;
+  color: #fff;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-column h5 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+/* Newsletter */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-check {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* Social */
+.footer-social a {
+  font-size: 20px;
+  margin-right: 12px;
+  color: #fff;
+}
+
+/* Bottom */
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 13px;
+  color: #bbb;
+}
+
 
 /* ---------------- */
 /* Animación Mi Carrito (círculo que envuelve) */
